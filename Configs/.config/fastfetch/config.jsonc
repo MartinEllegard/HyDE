@@ -16,11 +16,16 @@ fastfetch --config hyde/*.jsonc
     "separator": " : "
   },
   "modules": [
+    //{
+    //  "type": "command",
+    //  "key": "  ",
+    //  "keyColor": "blue",
+    //  "text": "echo System"
+    //},
     {
-      "type": "command",
-      "key": "  ",
-      "keyColor": "blue",
-      "text": "System"
+      "type": "title",
+      "key": "  ",
+      "format": "{6} {7} {8}"
     },
     {
       "type": "custom",
@@ -69,12 +74,7 @@ fastfetch --config hyde/*.jsonc
       "type": "custom",
       "format": "└──────────────────────────────────────────┘"
     },
-    "break",
-    {
-      "type": "title",
-      "key": "  ",
-      "format": "{6} {7} {8}"
-    },
+    //"break",
     {
       "type": "custom",
       "format": "┌──────────────────────────────────────────┐"
